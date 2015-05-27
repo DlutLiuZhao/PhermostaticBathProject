@@ -384,12 +384,27 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>led</GroupName>
+          <GroupName>display</GroupName>
           <Files>
             <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>lcd12864.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\lcd12864.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>memory</GroupName>
+          <Files>
+            <File>
+              <FileName>at24c02.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\at24c02.c</FilePath>
             </File>
           </Files>
         </Group>
